@@ -18,6 +18,7 @@ namespace MandelbrotWPF
         {
             if (pixelGenerators.Count == 0)
                 return false;
+
             return true;
         }
 
