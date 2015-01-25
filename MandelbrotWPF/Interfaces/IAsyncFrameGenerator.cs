@@ -1,23 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Media.Imaging;
 
-namespace MandelbrotWPF
+namespace MandelbrotWPF.Interfaces
 {
-    public interface IPictureGenerator
+    public interface IAsyncFrameGenerator
     {
         /// <summary>
-        /// Initialize the Picture Generator
+        /// Initialize the Frame Generator
         /// </summary>
-        /// <param name="pixelGenerators">a list of Pixel generators</param>
+        /// <param name="pixelColorGenerators">a list of Pixel Color generators</param>
         /// <returns>True if initialization succeeded. False otherwise</returns>
-        bool Init (List<IPixelGenerator> pixelGenerators);
+        bool Init(List<IPixelColorGenerator> pixelColorGenerators);
 
         /// <summary>
-        /// Generate an image spanning from [xLeft ... xRight] and [yBottom..yTop] 
+        /// Generate a frame spanning from [xLeft ... xRight] and [yBottom..yTop] 
         /// with the specified number of rows and columns
         /// </summary>
         /// <param name="xLeft">The smallest X coordinate of the generated image</param>
@@ -29,7 +29,7 @@ namespace MandelbrotWPF
         /// <returns>An image with rows x columns pixels. 
         /// The X coordinates of all pixels span from xLeft to xRight.
         /// The Y coordinates of all pixels span from yBottom to yTop</returns>
-        BitmapImage GenerateImage(  double xLeft,   double xRight,  int columns,
-                                    double yBottom, double yTop,    int rows);
+        Stream GenerateFrame(   double xLeft,   double xRight, int columns,
+                                double yBottom, double yTop,   int rows);
     }
 }

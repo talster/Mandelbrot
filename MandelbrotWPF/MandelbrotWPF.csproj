@@ -61,16 +61,24 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="IPictureGenerator.cs" />
-    <Compile Include="IPixelGenerator.cs" />
+    <Compile Include="Frames\AsyncFrameGenerator.cs" />
+    <Compile Include="Interfaces\FrameGeneratorStat.cs" />
+    <Compile Include="Interfaces\IAsyncFrameGenerator.cs" />
+    <Compile Include="Interfaces\ISyncFrameGenerator.cs" />
+    <Compile Include="Interfaces\IFrameGeneratorStatistics.cs" />
+    <Compile Include="Interfaces\IPixelGenerator.cs" />
+    <Compile Include="Interfaces\IPixelGeneratorStatisics.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MandelbrotPixelGenerator.cs" />
-    <Compile Include="SimplePictureGenerator.cs" />
+    <Compile Include="Mandelbrot\MandelbrotPixelColorGenerator.cs" />
+    <Compile Include="Mandelbrot\MandelbrotPixelGenerator.cs" />
+    <Compile Include="Interfaces\IPixelColorGenerator.cs" />
+    <Compile Include="Interfaces\PixelGeneratorStat.cs" />
+    <Compile Include="Frames\SyncFrameGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MandelbrotWPF", "MandelbrotWPF.csproj", "{98F8FC2F-7E22-4A34-B861-1E551BB2E5DF}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Models", "..\Models\Models.modelproj", "{CEDE2AFC-1712-4A61-B0C2-25A40E8D87D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{98F8FC2F-7E22-4A34-B861-1E551BB2E5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98F8FC2F-7E22-4A34-B861-1E551BB2E5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98F8FC2F-7E22-4A34-B861-1E551BB2E5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDE2AFC-1712-4A61-B0C2-25A40E8D87D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDE2AFC-1712-4A61-B0C2-25A40E8D87D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDE2AFC-1712-4A61-B0C2-25A40E8D87D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDE2AFC-1712-4A61-B0C2-25A40E8D87D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

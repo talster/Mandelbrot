@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="226688dc-8189-4d9a-bfef-b861fd792647" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="1ac12d8a-f6cc-43e2-82d3-920cc4143f06" name="IAsyncFrameGenerator">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="a8908ed3-1868-471f-9dc8-49392aeb3fc7" direction="Forward">
+          <layerMoniker Id="03ac3261-7eed-4695-9242-a52035d83f34" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="99a234ca-ea26-4b32-87f4-60e4e044a943" name="IAsyncFrameGenerator">
+          <ArtifactNode Label="IAsyncFrameGenerator" Category="CodeSchema_Interface" Id="(Assembly=../MandelbrotWPF/bin/Debug/MandelbrotWPF.exe Namespace=MandelbrotWPF.Interfaces Type=IAsyncFrameGenerator)" />
+          <ExpandedNode Id="(Assembly=MandelbrotWPF Namespace=MandelbrotWPF.Interfaces Type=IAsyncFrameGenerator)" Label="IAsyncFrameGenerator" Category="CodeSchema_Interface">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="9b2f0de6-934d-40d6-92c9-02bb5a665f52" name="IFrameGeneratorStatistics">
+      <references>
+        <reference Id="77b7e67b-1cac-4b51-b0cf-ba5a327333d7" name="IFrameGeneratorStatistics">
+          <ArtifactNode Label="IFrameGeneratorStatistics" Category="CodeSchema_Interface" Id="(Assembly=../MandelbrotWPF/bin/Debug/MandelbrotWPF.exe Namespace=MandelbrotWPF.Interfaces Type=IFrameGeneratorStatistics)" />
+          <ExpandedNode Id="(Assembly=MandelbrotWPF Namespace=MandelbrotWPF.Interfaces Type=IFrameGeneratorStatistics)" Label="IFrameGeneratorStatistics" Category="CodeSchema_Interface">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="03ac3261-7eed-4695-9242-a52035d83f34" name="IPixelColorGenerator">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="fe39532c-f43b-432e-8303-c54832c9b76e" direction="Forward">
+          <layerMoniker Id="87d92fc2-62e7-45a2-baba-c71056e4ac4d" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="7deb9eac-552e-4b5b-8384-3ef953bc0dda" name="IPixelColorGenerator">
+          <ArtifactNode Label="IPixelColorGenerator" Category="CodeSchema_Interface" Id="(Assembly=../MandelbrotWPF/bin/Debug/MandelbrotWPF.exe Namespace=MandelbrotWPF.Interfaces Type=IPixelColorGenerator)" />
+          <ExpandedNode Id="(Assembly=MandelbrotWPF Namespace=MandelbrotWPF.Interfaces Type=IPixelColorGenerator)" Label="IPixelColorGenerator" Category="CodeSchema_Interface">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="87d92fc2-62e7-45a2-baba-c71056e4ac4d" name="IPixelGenerator">
+      <references>
+        <reference Id="de531541-3e6f-4d98-aff4-44e2173b8a59" name="IPixelGenerator">
+          <ArtifactNode Label="IPixelGenerator" Category="CodeSchema_Interface" Id="(Assembly=../MandelbrotWPF/bin/Debug/MandelbrotWPF.exe Namespace=MandelbrotWPF.Interfaces Type=IPixelGenerator)" />
+          <ExpandedNode Id="(Assembly=MandelbrotWPF Namespace=MandelbrotWPF.Interfaces Type=IPixelGenerator)" Label="IPixelGenerator" Category="CodeSchema_Interface">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="76cfc9e5-c5c2-4a44-8e1d-d4a12a6a92eb" name="IPixelGeneratorStatisics">
+      <references>
+        <reference Id="3d5222db-87ca-45ff-8c41-58128b26022b" name="IPixelGeneratorStatisics">
+          <ArtifactNode Label="IPixelGeneratorStatisics" Category="CodeSchema_Interface" Id="(Assembly=../MandelbrotWPF/bin/Debug/MandelbrotWPF.exe Namespace=MandelbrotWPF.Interfaces Type=IPixelGeneratorStatisics)" />
+          <ExpandedNode Id="(Assembly=MandelbrotWPF Namespace=MandelbrotWPF.Interfaces Type=IPixelGeneratorStatisics)" Label="IPixelGeneratorStatisics" Category="CodeSchema_Interface">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="e6cb8517-b94e-466b-b3bf-b770a4526e17" name="ISyncFrameGenerator">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="ebe770f7-e72c-4cca-bfe7-ed271e72ecd7" direction="Forward">
+          <layerMoniker Id="03ac3261-7eed-4695-9242-a52035d83f34" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="43c32ba9-ab12-4cf8-a1eb-72d97d4402d8" name="ISyncFrameGenerator">
+          <ArtifactNode Label="ISyncFrameGenerator" Category="CodeSchema_Interface" Id="(Assembly=../MandelbrotWPF/bin/Debug/MandelbrotWPF.exe Namespace=MandelbrotWPF.Interfaces Type=ISyncFrameGenerator)" />
+          <ExpandedNode Id="(Assembly=MandelbrotWPF Namespace=MandelbrotWPF.Interfaces Type=ISyncFrameGenerator)" Label="ISyncFrameGenerator" Category="CodeSchema_Interface">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="ae2c3351-4e3f-426e-bd47-805344b43bd6" name="AsyncFrameGenerator">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="302d2f16-693e-4e29-b464-c0e8a67dd403" direction="Forward">
+          <layerMoniker Id="1ac12d8a-f6cc-43e2-82d3-920cc4143f06" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="5c7d87de-5fc1-47c4-a957-757247d1bd7a" direction="Forward">
+          <layerMoniker Id="9b2f0de6-934d-40d6-92c9-02bb5a665f52" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="bcfda512-4264-46c1-9029-37ad4400d17b" direction="Forward">
+          <layerMoniker Id="03ac3261-7eed-4695-9242-a52035d83f34" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="41c05b5d-e46f-4f85-a9ba-7bf456ec1f8e" name="AsyncFrameGenerator">
+          <ArtifactNode Label="AsyncFrameGenerator" Category="CodeSchema_Class" Id="(Assembly=../MandelbrotWPF/bin/Debug/MandelbrotWPF.exe Namespace=MandelbrotWPF.Frames Type=AsyncFrameGenerator)" />
+          <ExpandedNode Id="(Assembly=MandelbrotWPF Namespace=MandelbrotWPF.Frames Type=AsyncFrameGenerator)" Label="AsyncFrameGenerator" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="ce80a5b5-204b-4750-b81e-7986f163ab3a" name="SyncFrameGenerator">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="882b2536-b9da-4762-8ac9-95365825656b" direction="Forward">
+          <layerMoniker Id="e6cb8517-b94e-466b-b3bf-b770a4526e17" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="2653d254-4ea4-454d-b93e-668a4444ea81" direction="Forward">
+          <layerMoniker Id="9b2f0de6-934d-40d6-92c9-02bb5a665f52" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="5f1f844f-dc21-4789-b4ef-7094de2d6269" direction="Forward">
+          <layerMoniker Id="03ac3261-7eed-4695-9242-a52035d83f34" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="55f123ea-7d61-4b78-a67b-521b1e8fcd91" name="SyncFrameGenerator">
+          <ArtifactNode Label="SyncFrameGenerator" Category="CodeSchema_Class" Id="(Assembly=../MandelbrotWPF/bin/Debug/MandelbrotWPF.exe Namespace=MandelbrotWPF.Frames Type=SyncFrameGenerator)" />
+          <ExpandedNode Id="(Assembly=MandelbrotWPF Namespace=MandelbrotWPF.Frames Type=SyncFrameGenerator)" Label="SyncFrameGenerator" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="a839c46f-f616-4a19-ae65-90cfbc1fdb7e" name="MandelbrotPixelColorGenerator">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="a6c4a5d5-204c-4ceb-8dd8-0aeb76540848" direction="Forward">
+          <layerMoniker Id="03ac3261-7eed-4695-9242-a52035d83f34" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="afaa38b8-11d6-4d12-8917-4a4138042331" direction="Forward">
+          <layerMoniker Id="87d92fc2-62e7-45a2-baba-c71056e4ac4d" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="ea762f73-74e1-45b6-ad4d-730ba85ba812" name="MandelbrotPixelColorGenerator">
+          <ArtifactNode Label="MandelbrotPixelColorGenerator" Category="CodeSchema_Class" Id="(Assembly=../MandelbrotWPF/bin/Debug/MandelbrotWPF.exe Namespace=MandelbrotWPF.Mandelbrot Type=MandelbrotPixelColorGenerator)" />
+          <ExpandedNode Id="(Assembly=MandelbrotWPF Namespace=MandelbrotWPF.Mandelbrot Type=MandelbrotPixelColorGenerator)" Label="MandelbrotPixelColorGenerator" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="322bd82e-98c1-4f8e-b73d-82ae6ef96821" name="MandelbrotPixelGenerator">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="9abe0537-eaea-4028-b0a9-871a40524e47" direction="Forward">
+          <layerMoniker Id="87d92fc2-62e7-45a2-baba-c71056e4ac4d" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="acf34e1b-173f-479e-a6de-49132b978268" direction="Forward">
+          <layerMoniker Id="76cfc9e5-c5c2-4a44-8e1d-d4a12a6a92eb" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="f1dc909a-61ae-491f-aa5e-cdb0291a5feb" name="MandelbrotPixelGenerator">
+          <ArtifactNode Label="MandelbrotPixelGenerator" Category="CodeSchema_Class" Id="(Assembly=../MandelbrotWPF/bin/Debug/MandelbrotWPF.exe Namespace=MandelbrotWPF.Mandelbrot Type=MandelbrotPixelGenerator)" />
+          <ExpandedNode Id="(Assembly=MandelbrotWPF Namespace=MandelbrotWPF.Mandelbrot Type=MandelbrotPixelGenerator)" Label="MandelbrotPixelGenerator" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

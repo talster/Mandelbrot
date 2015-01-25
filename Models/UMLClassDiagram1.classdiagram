@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="af89d839-8f26-49f6-8109-5bcc91dccab6" name="UMLClassDiagram1" linkedPackageId="a0f5d25a-b0f7-4a66-afb8-a62661a2b693" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="ad689587-820d-4661-988a-a5fb6cb8a44d">
+      <profileInstance Id="23ca982b-1c65-4fa9-889b-c7df4c6dffdf" name="CSharpProfile">
+        <elementDefinition Id="ebb85408-fa96-4827-8403-f47334839e88" />
+      </profileInstance>
+      <elementDefinition Id="fe66a363-49f6-46ab-b6e8-2ad8b8f214d9" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="37122b2a-93bc-4f91-a432-5ba3f1d2f9be" name="IPixelGenerator" isAbstract="false" isLeaf="false">
+        <referencesInternal>
+          <reference Id="12674800-0602-4e48-863b-bd876d2bc510" handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FGoogle_Drive%2FProjects%2FMandelbrot%2FMandelbrotWPF%2Fbin%2FDebug%2FMandelbrotWPF.exe Namespace%3DMandelbrotWPF Type%3DIPixelGenerator" tag="ViewCode">
+            <elementDefinition Id="deca5059-4b09-4b28-bd83-e465e3da234e" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="5f211a9a-52d1-4fa3-a108-1f08a7b3a733" name="interface" profile="CSharpProfile">
+            <elementDefinition Id="3706c88e-3f10-45f6-b242-141dd0619966" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ef262a10-fe35-4908-aae3-2cc1eb6bb7ca">
+                <propertyInstance Id="2338d445-f205-44f1-be0e-d483c0b5feb7" name="ClrAttributes">
+                  <elementDefinition Id="1bc272e4-df68-4442-acad-12dbb83b505b" />
+                </propertyInstance>
+                <elementDefinition Id="927d007d-570a-4240-8dd9-97d24a78529c" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="e31b911f-0d8b-49bd-90c8-f0209a64a767">
+                <propertyInstance Id="d0949baa-ccfe-4614-bb0b-3242c8aed3f0" name="IsPartial" value="false">
+                  <elementDefinition Id="eebdc07c-59c8-42ae-8e68-3b10b7ee65de" />
+                </propertyInstance>
+                <elementDefinition Id="858cb859-8401-4a54-a0cc-0e5b281a6997" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="e8d9eb5c-a7c9-4fda-a55f-445e4d856101">
+                <propertyInstance Id="3acf1959-fda0-4775-bfab-2fae9a4b5f32" name="IsUnsafe" value="false">
+                  <elementDefinition Id="ac62e491-2402-4686-8b82-9ca7ac1434ee" />
+                </propertyInstance>
+                <elementDefinition Id="f0babac0-cdd7-40b7-aef5-0cc4fd0a3a41" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ee00c29b-5528-49af-aa29-130054fadb6b">
+                <propertyInstance Id="6d37f508-c3b0-4327-95df-26eb8e8be932" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="37fd04e0-c6c5-4f91-8d54-f3ca16e521c6" />
+                </propertyInstance>
+                <elementDefinition Id="b4e90b1e-5b2e-4809-bc08-0138774292f7" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="882ee793-ed27-4032-8956-cb9793ff0785" />
+        <ownedOperations>
+          <operation Id="ebd4b855-ef83-4bc9-979d-49db7a8fe56e" name="GetPixelValue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="e3c082ee-0308-4fdb-bc56-574af65481af" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FGoogle_Drive%2FProjects%2FMandelbrot%2FMandelbrotWPF%2Fbin%2FDebug%2FMandelbrotWPF.exe Namespace%3DMandelbrotWPF Type%3DIPixelGenerator Member%3D(Name%3DGetPixelValue OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)])" tag="ViewCode">
+                <elementDefinition Id="e9e3d95e-d3a6-4127-ab0b-ddea3a15019d" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="f003ec70-2edf-46d3-9dba-efbef848ab84" name="method" profile="CSharpProfile">
+                <elementDefinition Id="374f9dcd-320b-48a7-bca0-6167c58070bb" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="09016f7a-c4e0-470f-88ae-ebc4fac0297a">
+                    <propertyInstance Id="82590b42-edf3-4f34-8555-b7515281246b" name="ClrAttributes">
+                      <elementDefinition Id="ae8a27a6-dfc5-4a17-8963-9492f784dbbe" />
+                    </propertyInstance>
+                    <elementDefinition Id="56a6e188-48d4-4ba7-acef-c46468a8f079" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3e5a4e8f-856b-404b-9023-4c00bf86540a">
+                    <propertyInstance Id="e34ea5c6-e022-470e-a731-967f227f5a7c" name="IsPartial" value="false">
+                      <elementDefinition Id="b6aa67c2-ac2f-4686-a86c-8807ed28ebcf" />
+                    </propertyInstance>
+                    <elementDefinition Id="a5a4b6c8-3195-46e4-b54a-587722f61961" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5e209ca6-6795-4e01-a63c-6aecfda31c35">
+                    <propertyInstance Id="7dee2052-d80e-4c3e-8f9a-fe7b7ccad675" name="IsUnsafe" value="false">
+                      <elementDefinition Id="3a07d87a-ea8a-4ec8-b5e0-17bc412e442b" />
+                    </propertyInstance>
+                    <elementDefinition Id="5461ccd3-1861-4d24-84d6-1962b784023f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4b13ae00-ad80-4463-a2ad-4e54f92bd9dc">
+                    <propertyInstance Id="f94bff46-9e9d-4734-80af-27c04c091e0a" name="Inheritance" value="none">
+                      <elementDefinition Id="511924c8-3523-4dcb-bf5d-bd658702ded4" />
+                    </propertyInstance>
+                    <elementDefinition Id="0bab0973-9214-42e8-820e-1cf267074173" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="94082d13-2bfa-4e11-9cc9-860132c595ae">
+                    <propertyInstance Id="d2d585c4-0e0d-4f69-9181-2a2ab9a930f2" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="e9c97e4f-3563-43d5-9471-5f18027db2ac" />
+                    </propertyInstance>
+                    <elementDefinition Id="c0ec7586-a688-4362-8c4e-4d6619e5b692" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="aceb3540-40dc-4c26-a052-3f6a7c010026">
+                    <propertyInstance Id="6e48504d-3fc5-4916-8f4b-4c8ba2917ff9" name="params" value="false">
+                      <elementDefinition Id="1ae1973a-8e74-4c24-8fc3-04b75aa6855c" />
+                    </propertyInstance>
+                    <elementDefinition Id="d596552a-6a1b-4e2a-a0d9-68f24fbe4d5c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="01066aaa-e690-49dc-8142-5d7004167005" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ce7b8cc1-bb51-48bb-bca2-4212af581f22" direction="Return">
+                  <elementDefinition Id="a6a55c02-b29a-45ad-940e-fcdb458cb2f4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a166faa-d6a5-4c16-9ec3-ef20a84180a0" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ed210adf-5b95-42c9-bfe9-9436f63c72df" name="x" direction="In">
+                  <referencesInternal>
+                    <reference Id="d7d38081-202d-4b52-a99d-0f5c23d40a65" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FGoogle_Drive%2FProjects%2FMandelbrot%2FMandelbrotWPF%2Fbin%2FDebug%2FMandelbrotWPF.exe Namespace%3DMandelbrotWPF Type%3DIPixelGenerator Member%3D(Name%3DGetPixelValue OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dx" tag="ViewCode">
+                      <elementDefinition Id="6fbaad92-f190-44d2-bbc6-76a90e2a96e7" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="e060bcbc-3a1d-435d-a626-abc77d54702b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4718e5a6-8e37-4cad-8fe7-2d105f481ac4" LastKnownName="Double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f6d238a3-7e3b-487d-a3fa-602212236a9b" name="y" direction="In">
+                  <referencesInternal>
+                    <reference Id="07d3f02b-1658-4b36-8320-2530f8e52114" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FGoogle_Drive%2FProjects%2FMandelbrot%2FMandelbrotWPF%2Fbin%2FDebug%2FMandelbrotWPF.exe Namespace%3DMandelbrotWPF Type%3DIPixelGenerator Member%3D(Name%3DGetPixelValue OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dy" tag="ViewCode">
+                      <elementDefinition Id="af7a158c-db4a-43ae-9352-c7b2f05c86ec" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="928e8d51-f650-45a9-8a0b-7ed7426c7bb1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4718e5a6-8e37-4cad-8fe7-2d105f481ac4" LastKnownName="Double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="5a166faa-d6a5-4c16-9ec3-ef20a84180a0" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="4718e5a6-8e37-4cad-8fe7-2d105f481ac4" name="Double" isAbstract="false" isLeaf="false" cachedFullName="Models::System::Double">
+        <elementDefinition Id="28c2af17-996f-4265-9436-b4a61dd14d3c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="5c3e8668-76f7-4250-ba78-ebfee62c6f7a" name="IPixelGeneratorStatisics" isAbstract="false" isLeaf="false">
+        <referencesInternal>
+          <reference Id="143c014f-6ba3-4d1a-a2dd-140c5b39d5ec" handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FGoogle_Drive%2FProjects%2FMandelbrot%2FMandelbrotWPF%2Fbin%2FDebug%2FMandelbrotWPF.exe Namespace%3DMandelbrotWPF Type%3DIPixelGeneratorStatisics" tag="ViewCode">
+            <elementDefinition Id="f7246609-c7d0-487b-b63a-98cdd490259d" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="2386ecf1-ab22-4b41-9b3a-fcca6af29094" name="interface" profile="CSharpProfile">
+            <elementDefinition Id="3000f4cf-1c65-4185-900c-c30253c7b956" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="792c6e6c-b1da-4e7d-bf57-2651ea903879">
+                <propertyInstance Id="055c9e48-f8ec-4669-8997-9f739ee829f4" name="ClrAttributes">
+                  <elementDefinition Id="b8aa740e-5901-4c0a-83f0-14b78318c5d9" />
+                </propertyInstance>
+                <elementDefinition Id="9a255cc9-eda1-4073-b330-8dce902bc4fb" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a585e810-b500-4e92-84f3-1372ef443872">
+                <propertyInstance Id="e83b0904-1e13-486d-9a07-ccee783d246d" name="IsPartial" value="false">
+                  <elementDefinition Id="a107fa6e-06c5-434b-b113-b738741df2cf" />
+                </propertyInstance>
+                <elementDefinition Id="bfb22c53-7ae8-4ca8-9f5b-553c61d055df" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="476617e6-217f-407e-9e62-69fad5fc4aa9">
+                <propertyInstance Id="f2f95538-7dfc-4615-ace4-a09ec8013d14" name="IsUnsafe" value="false">
+                  <elementDefinition Id="346ace76-4140-4dff-a82f-604d72f54cc0" />
+                </propertyInstance>
+                <elementDefinition Id="a6eba278-1657-4713-bdd4-962c8e077134" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="8349f2c5-9da0-438b-8fa0-f4606e1b2274">
+                <propertyInstance Id="d68e18ea-5a36-4ba0-a7ac-c45d1a665c74" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="5eee234a-7a74-4b9f-b2a5-9ef2ae205238" />
+                </propertyInstance>
+                <elementDefinition Id="2665b06f-c3e5-4178-b42d-9c5a2d3a2992" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="31237d23-1b35-4ec5-8355-d7e3e0c9eb5c" />
+        <ownedOperations>
+          <operation Id="ba4e3a5b-2bef-4c0c-9c15-5c9b0b57ad4d" name="GetStatistics" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="06c5c6cd-bdde-4764-810b-6fae772dc0e3" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FGoogle_Drive%2FProjects%2FMandelbrot%2FMandelbrotWPF%2Fbin%2FDebug%2FMandelbrotWPF.exe Namespace%3DMandelbrotWPF Type%3DIPixelGeneratorStatisics Member%3DGetStatistics" tag="ViewCode">
+                <elementDefinition Id="73baeff8-5d8d-4e14-8115-232d51895921" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="af7898af-301e-4327-be28-b17638f48c9d" name="method" profile="CSharpProfile">
+                <elementDefinition Id="82669f2b-a59e-4006-81d0-68e9191fa1a8" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b26388e9-3adb-483c-9c74-e16b45fbbb4c">
+                    <propertyInstance Id="831609fe-9742-4863-9ef2-8dec3ee2cc78" name="ClrAttributes">
+                      <elementDefinition Id="6120f8ba-0a0f-41d2-aeba-38a3c21846db" />
+                    </propertyInstance>
+                    <elementDefinition Id="1f7fa279-c4fa-427d-a765-4b36cc896c27" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2dd2687b-507b-4647-b77e-87daa3730911">
+                    <propertyInstance Id="bdec4b06-0d13-41af-8786-7f2791777d85" name="IsPartial" value="false">
+                      <elementDefinition Id="2dfa2c0d-03fa-4b13-8735-a30a0e3258c2" />
+                    </propertyInstance>
+                    <elementDefinition Id="dececa87-eeb5-45fd-90d4-906f0d84f8d9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a776807a-1849-4861-acbb-bef50c2a7fa9">
+                    <propertyInstance Id="074cf934-3c50-469f-ab93-c86c2beca23e" name="IsUnsafe" value="false">
+                      <elementDefinition Id="0b62df60-5816-4376-95ed-31147f720530" />
+                    </propertyInstance>
+                    <elementDefinition Id="29d2778a-d11d-4885-8716-5df4ea164560" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="aafa8847-e61b-4fdd-922e-88d43a522e9e">
+                    <propertyInstance Id="89c26a99-0a0d-4258-b065-38e1c14a75f4" name="Inheritance" value="none">
+                      <elementDefinition Id="4122113a-f0d7-4a9e-a612-a4fab080044b" />
+                    </propertyInstance>
+                    <elementDefinition Id="a84a5481-2aed-41b3-aaae-79abaacaffdb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4e67fc18-a06e-4fb4-8fda-71b8c2b6b386">
+                    <propertyInstance Id="705f0369-99d7-474d-aaa7-35815a470e35" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="90d99a04-212e-4e11-a0b1-11b31498042d" />
+                    </propertyInstance>
+                    <elementDefinition Id="5281f311-9e27-4a09-82bd-5e15c41d9d05" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4705c4ab-1fbe-402c-b267-a1dc280e7580">
+                    <propertyInstance Id="c1257d70-66ec-42f6-97fe-0aacc255d3a1" name="params" value="false">
+                      <elementDefinition Id="7aa28ef9-dd6d-420e-a7fb-3eb8bab1313d" />
+                    </propertyInstance>
+                    <elementDefinition Id="6eeca7aa-0765-4c4d-b520-0dfe51d27d16" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="6d57b005-16e9-460f-b1be-ccf567de0ead" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2deccd35-a8bb-4670-9e08-db07da2d3940" direction="Return">
+                  <elementDefinition Id="7f50f7a8-7935-4782-89a5-a0a47b134ce4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="24e85677-f5b9-4be7-8507-b551efbe631b" LastKnownName="PixelGeneratorStat" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="24e85677-f5b9-4be7-8507-b551efbe631b" name="PixelGeneratorStat" isAbstract="false" isLeaf="false" cachedFullName="Models::MandelbrotWPF::PixelGeneratorStat">
+        <elementDefinition Id="cc1b4ecd-7756-4377-927d-7445987735f5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c4d0bbec-e0c5-4dcd-bcab-0a47bfdd159a" name="MandelbrotPixelGenerator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="026d36c9-3bc0-4835-8195-6568fd6d24e9" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FGoogle_Drive%2FProjects%2FMandelbrot%2FMandelbrotWPF%2Fbin%2FDebug%2FMandelbrotWPF.exe Namespace%3DMandelbrotWPF Type%3DMandelbrotPixelGenerator" tag="ViewCode">
+            <elementDefinition Id="f478a89a-0cbd-4e57-a656-fd16b74018aa" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="4e136c26-4eee-4dc9-819f-7fefea1941c0" name="class" profile="CSharpProfile">
+            <elementDefinition Id="c5250a15-bc1a-42dd-87cf-0f817429a179" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="bb4d8bfb-c77e-4340-a786-7bc1de8c06d4">
+                <propertyInstance Id="32e02e92-4a7f-484f-ac24-511595e4dc38" name="ClrAttributes">
+                  <elementDefinition Id="fae0afd6-a114-4598-b7d2-8a90bcd196f8" />
+                </propertyInstance>
+                <elementDefinition Id="64fc1cb7-e64e-4286-8d77-6720f298057d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5ab3520b-fc71-4317-a328-61590dfdb16a">
+                <propertyInstance Id="17ae25a9-d1ce-46f6-baa1-92419d8e9d9e" name="IsPartial" value="false">
+                  <elementDefinition Id="59536882-fb53-4124-925d-ea0107e7d39d" />
+                </propertyInstance>
+                <elementDefinition Id="cecabc49-5ab9-4553-927b-9dc92802a19d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b6f2204b-fad5-4354-8eda-2df3c8f3871a">
+                <propertyInstance Id="ba5c7964-8638-45c5-b331-0d31d66d7717" name="IsStatic" value="False">
+                  <elementDefinition Id="e7680e05-4c53-410e-90be-db294afb38e8" />
+                </propertyInstance>
+                <elementDefinition Id="2308fab9-227b-47f8-a690-25e5fba42387" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="13a0b1a1-3c50-4456-aa11-445510001077">
+                <propertyInstance Id="ebcf01be-4349-4e58-8665-2d4476bb2b3f" name="IsUnsafe" value="false">
+                  <elementDefinition Id="0a0dd962-9632-4c19-b5b7-0e7c88f7588f" />
+                </propertyInstance>
+                <elementDefinition Id="dcce7bec-b270-4a60-bcbd-2e7be9db9d39" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="8aeacfdf-0cb2-42a2-aa0d-e29b1ad402bb">
+                <propertyInstance Id="eac35f92-aa04-45a4-8e10-7ef639b48cd8" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="7748dd07-971f-433e-b9f5-853b59460d55" />
+                </propertyInstance>
+                <elementDefinition Id="72c79618-f007-449c-8295-e42376172c18" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="8f8e9766-ca5f-4233-82b8-8f2abf40d094" />
+        <suppliersInternal>
+          <interfaceRealization Id="1728f90b-730d-4af2-a76e-835d25e316aa">
+            <interfaceMoniker Id="37122b2a-93bc-4f91-a432-5ba3f1d2f9be" LastKnownName="IPixelGenerator" />
+            <elementDefinition Id="769f776c-228e-4230-8762-6134a1e97a1b" />
+          </interfaceRealization>
+          <interfaceRealization Id="cfb7ea9b-45cc-4984-8c93-eefc3399939c">
+            <interfaceMoniker Id="5c3e8668-76f7-4250-ba78-ebfee62c6f7a" LastKnownName="IPixelGeneratorStatisics" />
+            <elementDefinition Id="370ed321-5d3b-4f1a-8cb8-f7765b6d778e" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="48ff8bc1-4d2a-4ea6-92d5-2ed6dca9e452" name="GetPixelValue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="fb8c2825-e3ca-4ce3-bc3c-d8d38f15c94f" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FGoogle_Drive%2FProjects%2FMandelbrot%2FMandelbrotWPF%2Fbin%2FDebug%2FMandelbrotWPF.exe Namespace%3DMandelbrotWPF Type%3DMandelbrotPixelGenerator Member%3D(Name%3DGetPixelValue OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)])" tag="ViewCode">
+                <elementDefinition Id="76f207a4-3d0b-4bd7-b88d-5caa8c8a96a5" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="35662fb9-fdd9-4e68-b681-f1e818781aa4" name="method" profile="CSharpProfile">
+                <elementDefinition Id="61e49fdb-3c76-4c3d-9068-787cf451cd3b" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="69c15725-0d2f-43b0-bdb9-bbd56dfc789e">
+                    <propertyInstance Id="8e987d8d-f619-46e8-8096-a27c79888285" name="ClrAttributes">
+                      <elementDefinition Id="4b86115b-2758-4934-b7ff-94586aa9d875" />
+                    </propertyInstance>
+                    <elementDefinition Id="46f7cc38-2905-4480-aebf-b6c2305159b2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2e2355db-437d-49bd-b149-c762e760c81a">
+                    <propertyInstance Id="57884d17-9f21-4a80-b23b-abd73b05508f" name="IsPartial" value="false">
+                      <elementDefinition Id="e7b8325c-4257-4acf-9558-61f758bf3eeb" />
+                    </propertyInstance>
+                    <elementDefinition Id="3cf99d61-9742-40b0-9bd5-f9339e2266b8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="59504081-8410-4c2e-85b7-f44d3b6c4e5f">
+                    <propertyInstance Id="ff218afc-f562-45ba-9d13-99e8e97d86d5" name="IsUnsafe" value="false">
+                      <elementDefinition Id="f230320e-3a54-4bfa-96ed-8401b503a981" />
+                    </propertyInstance>
+                    <elementDefinition Id="7c5496bf-7ee6-46c8-a62a-6a4265b12ea0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c489b2b9-8118-4282-a3fc-2091e9199876">
+                    <propertyInstance Id="286c2126-12d3-4d8a-9095-fd77d6b645e4" name="Inheritance" value="none">
+                      <elementDefinition Id="9fd63ccf-cf35-49bf-9e65-5ec6c9ffe6b4" />
+                    </propertyInstance>
+                    <elementDefinition Id="d72df9f1-215d-4f0d-bf7a-6091aa99cc6a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="40d2deef-ded0-4b41-8800-72eeaf192b8f">
+                    <propertyInstance Id="aac4bf5d-c75a-4392-b446-e74777457f0e" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="8a34565c-f7c8-4219-8752-097f3b77172c" />
+                    </propertyInstance>
+                    <elementDefinition Id="5807bf2c-d7ce-40d0-a5f9-361209d216d7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="54889f28-38f5-4e7f-b9d7-eb387cf07186">
+                    <propertyInstance Id="bbe84c2e-19ec-4bc1-a308-805285a293f7" name="params" value="false">
+                      <elementDefinition Id="8a47a4a4-3bb9-40ed-8129-4e42dab3a86e" />
+                    </propertyInstance>
+                    <elementDefinition Id="aea8ed89-6a4e-427d-85f9-7a0996452229" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="349f15aa-bb89-42c8-a7f6-459e1ff3ceee" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="28fc8e25-f3fa-4ebb-8b32-9652dae13748" direction="Return">
+                  <elementDefinition Id="03199165-f94a-435e-a8a6-0a8d6daaccd8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5a166faa-d6a5-4c16-9ec3-ef20a84180a0" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3deb59ad-9925-4ab2-b47c-cefa57153eb3" name="x" direction="In">
+                  <referencesInternal>
+                    <reference Id="20cf38aa-1fd5-4306-8db8-9f764553bba1" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FGoogle_Drive%2FProjects%2FMandelbrot%2FMandelbrotWPF%2Fbin%2FDebug%2FMandelbrotWPF.exe Namespace%3DMandelbrotWPF Type%3DMandelbrotPixelGenerator Member%3D(Name%3DGetPixelValue OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dx" tag="ViewCode">
+                      <elementDefinition Id="828b9c97-3e92-4f91-9ae5-e85aaec463b7" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f63ddc18-dc9d-48c4-8243-237d8ff25fb5" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4718e5a6-8e37-4cad-8fe7-2d105f481ac4" LastKnownName="Double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="791d7486-69d5-4eb3-8589-6ebc6746000f" name="y" direction="In">
+                  <referencesInternal>
+                    <reference Id="d063ccac-412b-4b4a-bcdd-41f52922096b" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FGoogle_Drive%2FProjects%2FMandelbrot%2FMandelbrotWPF%2Fbin%2FDebug%2FMandelbrotWPF.exe Namespace%3DMandelbrotWPF Type%3DMandelbrotPixelGenerator Member%3D(Name%3DGetPixelValue OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dy" tag="ViewCode">
+                      <elementDefinition Id="ca9fcaaa-f96b-4600-9087-4b8377ae7490" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="8eb1d0d8-103d-40ab-96b4-2707de5b58c1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="4718e5a6-8e37-4cad-8fe7-2d105f481ac4" LastKnownName="Double" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="62b65cf0-65c3-4f4d-bf75-93bd2731470c" name="MandelbrotPixelGenerator" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="71783941-698d-4068-aeba-370b34c02d39" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FGoogle_Drive%2FProjects%2FMandelbrot%2FMandelbrotWPF%2Fbin%2FDebug%2FMandelbrotWPF.exe Namespace%3DMandelbrotWPF Type%3DMandelbrotPixelGenerator Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="b5a69cd0-1094-420d-8707-06146523dbb3" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="c67899be-ba87-4cc3-8d22-7c1cb3e360e2" name="method" profile="CSharpProfile">
+                <elementDefinition Id="9bece905-9b83-481f-ad2a-6cdf6281510a" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="93db09fe-ddac-4ac1-b422-b602b95d6066">
+                    <propertyInstance Id="da4de529-8fbb-4002-91c1-b31356b06702" name="ClrAttributes">
+                      <elementDefinition Id="e8ebb1c3-7415-4f54-8da7-6374d533faa3" />
+                    </propertyInstance>
+                    <elementDefinition Id="31bde54f-31d7-429f-8da5-6a48adac51a5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7bfe7072-74e4-48c2-b11a-aef532037604">
+                    <propertyInstance Id="e461dd9a-71b3-45ad-8d4f-e7987867fc1e" name="IsPartial" value="false">
+                      <elementDefinition Id="8b450411-b0f0-4370-8544-f600150777a3" />
+                    </propertyInstance>
+                    <elementDefinition Id="e0cbf2dc-5194-4bd0-ac31-9ef3225be09a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b1245b6e-da07-4c05-abc6-9a69263870cd">
+                    <propertyInstance Id="c984eb85-fb0c-4027-977d-0f1b600005fc" name="IsUnsafe" value="false">
+                      <elementDefinition Id="24fe7936-2486-4f77-a486-dec60576b2a8" />
+                    </propertyInstance>
+                    <elementDefinition Id="f4916445-4271-407a-a154-eb1307f8362b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a6b450f9-7d4a-4e32-9aeb-ae79cf61dd51">
+                    <propertyInstance Id="ec2fe6bc-9ad3-43a0-ac81-a99b5e7fc4c2" name="Inheritance" value="none">
+                      <elementDefinition Id="fbae86ea-8fa4-4fff-a9b3-47c928be3837" />
+                    </propertyInstance>
+                    <elementDefinition Id="7308daab-2901-46c0-ae04-072044749c5f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="dd02d3ca-f83f-49ad-bdcb-e2b0f8527572">
+                    <propertyInstance Id="ec838afe-da79-44ef-bcc9-db6abd2e0202" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f19a6e95-13a8-488b-8403-b289ae859652" />
+                    </propertyInstance>
+                    <elementDefinition Id="64fa5ce3-b6dc-4ab1-9a3a-a6d1630142fd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4b83310f-c6c4-4043-a221-8fde11b70f86">
+                    <propertyInstance Id="2270d221-0e27-4e21-ac0d-2d2384cb7b63" name="params" value="false">
+                      <elementDefinition Id="caa6d2c5-e51f-4edb-b312-3460b09be602" />
+                    </propertyInstance>
+                    <elementDefinition Id="1f66142d-af7b-4e6c-9795-56a599bf12fb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="8b6572ff-f273-42d9-ba94-481469ce84ad" />
+          </operation>
+          <operation Id="290a5758-216a-42b8-95b2-0999c3a107d4" name="GetStatistics" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="b1c13e55-5396-47a8-a7e5-715f36ce9074" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FGoogle_Drive%2FProjects%2FMandelbrot%2FMandelbrotWPF%2Fbin%2FDebug%2FMandelbrotWPF.exe Namespace%3DMandelbrotWPF Type%3DMandelbrotPixelGenerator Member%3DGetStatistics" tag="ViewCode">
+                <elementDefinition Id="135b6f8e-90a5-463d-bfa2-9d08c3977c4e" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="cba462cc-334b-4cb4-88fe-0885fca2af65" name="method" profile="CSharpProfile">
+                <elementDefinition Id="a31deee7-3794-42f6-bd0b-db66d463fcd8" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8fa86e23-c4e4-4410-90b0-afe31b19520b">
+                    <propertyInstance Id="65db5dc3-662e-42df-9753-5cd171b6a7f9" name="ClrAttributes">
+                      <elementDefinition Id="6b175664-93c4-4de0-8848-d75200a8d8a3" />
+                    </propertyInstance>
+                    <elementDefinition Id="818a5d7e-c7cf-4b76-baa9-62859fb29f44" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9c054dd4-f581-4e82-9f37-94e5110dd5a9">
+                    <propertyInstance Id="c33ddb7b-5f73-47b8-bc1a-03ff608cea32" name="IsPartial" value="false">
+                      <elementDefinition Id="ab6d2767-3981-48db-b459-7768f8ba12c1" />
+                    </propertyInstance>
+                    <elementDefinition Id="b5a3cd26-a123-4d41-9fef-2e10acec0a8c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7b809e94-e8c1-48b9-8c34-abe81c31aaca">
+                    <propertyInstance Id="e6145de9-0646-4e40-b2c9-713f2d96e754" name="IsUnsafe" value="false">
+                      <elementDefinition Id="c340418c-64bd-491b-89cd-0c3c63697f7d" />
+                    </propertyInstance>
+                    <elementDefinition Id="48daa57e-7054-437c-8dc9-6daa2f1ce7a1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="518a290f-947c-4d75-ada8-e5b4973abf6f">
+                    <propertyInstance Id="ea28c188-b8ee-46c0-87fb-facbfd7a2829" name="Inheritance" value="none">
+                      <elementDefinition Id="17af7ef8-eb16-41dc-b79d-5454f7a6e251" />
+                    </propertyInstance>
+                    <elementDefinition Id="1e872dfb-097a-470a-944d-e3f63d2d61cd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5e93adee-04e7-42b2-82da-1c68dcf58957">
+                    <propertyInstance Id="8c6521d7-8307-491b-af98-552e418182b8" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="0800bcf5-9f67-492a-87c7-31bae4bda489" />
+                    </propertyInstance>
+                    <elementDefinition Id="669ffa1a-9b15-4e75-8cce-eec9c26682ee" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="901fde27-1d9d-40c4-a28c-c179ce4f9dff">
+                    <propertyInstance Id="fa8e3fc9-fb6b-403c-866b-9d799d17e425" name="params" value="false">
+                      <elementDefinition Id="ddd7351f-f9a9-4f5b-ae16-9f79dfb85a9d" />
+                    </propertyInstance>
+                    <elementDefinition Id="f1d7dce6-b341-492b-85ca-edfab4044014" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="674e265e-78d4-446e-9745-c1a46c43cb0c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d507f11d-7126-41e4-8349-e5f6fe194f8b" direction="Return">
+                  <elementDefinition Id="3b47a1f1-d56c-40b5-8842-d550755ed3ec" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="24e85677-f5b9-4be7-8507-b551efbe631b" LastKnownName="PixelGeneratorStat" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="a0f5d25a-b0f7-4a66-afb8-a62661a2b693" name="Models">
+    <elementDefinition Id="cb0c1c04-0bee-4fef-ba77-adaa42c3eee1" />
+    <profileInstances>
+      <packageHasProfileInstances Id="8cc4adba-606a-4583-829c-b75c818c22b0">
+        <profileInstance Id="e4d835a2-c582-4596-baa3-47dd5ee60ce7" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="b4e01432-dc23-4a71-9977-16a57cc0d64e">
+        <profileInstance Id="6b4f1774-97ab-4891-9724-a021b57e3416" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
